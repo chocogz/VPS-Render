@@ -10,4 +10,4 @@ RUN echo 'root:Ithelpu@2023' | chpasswd
 
 EXPOSE 22
 
-CMD P ["/usr/bin/shellinabox", "-t", "-s", "/:LOGIN"]
+CMD P ["/usr/bin/shellinaboxd", "-t", "-s", "/:LOGIN"]
